@@ -1,0 +1,61 @@
+      :root{
+          --primary-color: #1d5888;
+          --second-Color: #ff993b;
+          --dark-color:  #292929;
+          --white-color: #e7e7e7;
+      }
+
+      body{
+          color: var(--dark-color);
+      }
+
+      i{
+          color: url(--primary-color);
+      }
+
+      nav{
+         background-color: var(--dark-color);
+      }
+
+      footer{
+          background-color: var(--dark-color);
+      }
+
+      h1,h2,h3,h4,h5,h6 {
+          color: var(--primary-color);
+      }
+      
+      .bsicon{
+          color: rgb(71, 8, 71);
+      }
+      .jsicon{
+          color: rgb(255, 255, 91);
+      }
+      .htmlicon{
+          color: orangered;
+      }
+      .cssicon{
+          color: rgb(55, 118, 255);
+      }
+
+      .checklist >li i{
+        color: var(--second-Color);
+      }
+
+      main>.container {
+           padding: 60px 15px 0;
+           margin-bottom: 5rem;
+       }
+       .sticky-nav {
+           position: fixed;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+       }
+
+       code[class*="language-"],
+        pre[class*="language-"] {
+        white-space: pre-wrap;
+        word-break: break-all;
+        word-wrap: break-word;
+        }
